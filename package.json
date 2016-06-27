@@ -1,0 +1,11 @@
+{
+  "name": "RedactorPlugins",
+  "description": "Add Redactor 10 compatible plugins",
+  "author": "Rudy Affandi",
+  "version": "1.0.0",
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "laravel-elixir": "^5.0.0",
+    "laravel-elixir-vueify": "^1.0.0"
+  }
+}
