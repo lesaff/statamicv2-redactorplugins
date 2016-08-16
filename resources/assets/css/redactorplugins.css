@@ -1,0 +1,11 @@
+/*
+Fix for missing Redactor checkboxes
+ */
+
+#redactor-modal-body input[type=checkbox],
+#redactor-modal-body input[type=radio] {
+    display: inline-block;
+    opacity: 1;
+    position: relative;
+    left: auto;
+}

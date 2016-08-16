@@ -16,13 +16,14 @@ class RedactorPluginsListener extends Listener
     ];
 
     /**
-     * Initialize Hubspot assets
+     * Add CSS to head
      * @return string
      */
     public function showCss()
     {
-        $addon_css = $this->css->url('hubspot.css');
-        $output = '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">';
+        $addon_css  = $this->css->url('redactorplugins.css');
+        $output     = '<link rel="stylesheet" href="' . $addon_css . '">';
+        $output    .= '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">';
 
         return $output;
 
